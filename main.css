@@ -1,0 +1,70 @@
+*{
+    font-family: 'Spartan', sans-serif;
+}
+header{
+    background-color:  hsl(180, 52%, 96%);
+}
+main{
+    display: flex;
+    flex-direction: column;
+    background-color:  hsl(180, 52%, 96%);
+}
+footer{
+    background-color:  hsl(180, 52%, 96%);
+}
+
+.card{
+    border: 1px solid black;
+    border-radius: 5px;
+    margin: 1.5em 1.5em;
+    background-color: white;
+}
+
+.card_body{
+    margin: 1.5em 1.5em;
+}
+
+.card_body_tags{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    border-top: 1px solid gray;
+}
+
+.tag{
+    background-color: rgb(215, 238, 215);
+    color: lightseagreen;
+    font-weight: bold;
+    padding: 0.5em;
+    border-radius: 2px;
+}
+
+/* 
+<div class="card"> <!-- DIV CARD -->
+<div>
+  <!-- DIV VACIO -->
+</div>
+<div class="card_body">
+  <!-- DIV GENERAL -->
+  <div class="card_body_text">
+    <!-- DIV TEXTO -->
+    <div class="card_body_text_title">
+      <p>Photosnap</p>
+      <p>New!</p>
+      <p>Featured</p>
+    </div>
+    
+    <h3>Senior Frontend Developer</h3>
+    <p>1d ago Full Time USA only</p>
+  </div>
+  <div class="card_body_tags">
+    <!-- DIV ETIQUETAS -->
+    <p>Frontend</p>
+    <p>Senior</p>
+    <p>HTML</p>
+    <p>CSS</p>
+    <p>JavaScript</p>
+  </div>
+</div>
+</div>
+ */
